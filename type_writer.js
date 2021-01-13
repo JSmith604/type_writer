@@ -2,7 +2,7 @@ const sentence = "hello there from lighthouse labs";
 
 
 
-function typeWriter(sentence) {
+const typeWriter = (sentence) =>  {
   let timeDelay = 0;
   for (let char of sentence) {
     setTimeout(() => 
